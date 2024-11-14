@@ -1,0 +1,20 @@
+p {
+    /* sets the border style to solid */
+    border-style: solid;
+    padding: 8px;
+}
+
+p.border-blue {
+    /* adds color using color name */
+    border-color: blue;
+}
+
+p.border-green {
+    /* adds color in RGB color format */
+    border-color: rgb(0, 255, 0);
+}
+
+p.border-red {
+    /* adds color in the hexadecimal color format */
+    border-color: #ff0000;
+}
